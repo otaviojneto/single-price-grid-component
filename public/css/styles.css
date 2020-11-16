@@ -369,17 +369,20 @@ a:active {
   background-color: #98a6bd; }
 
 .card {
-  display: block;
-  margin: 200px auto;
+  margin: 0px 180px 0px 280px;
   border-radius: 10px; }
 
 .single {
-  background-color: white; }
+  background-color: white;
+  display: block;
+  margin: 200px auto 0px;
+  width: 50%;
+  border-radius: 10px; }
 
 .information {
   background-color: #2ab2af;
-  display: flex; }
+  max-width: 50%; }
 
 .why-us {
   background-color: #51ccca;
-  display: flex; }
+  max-width: 50%; }
