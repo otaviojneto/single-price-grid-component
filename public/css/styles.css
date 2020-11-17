@@ -365,24 +365,84 @@ a:active {
     flex: 0 0 100%;
     max-width: 100%; } }
 
+.title {
+  color: #e5eff5;
+  line-height: 20px;
+  letter-spacing: normal;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 16px; }
+
+.txt {
+  color: #e5eff5;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  margin-bottom: 18px; }
+
 .wall {
   background-color: #98a6bd; }
 
-.card {
-  margin: 0px 180px 0px 280px;
-  border-radius: 10px; }
-
 .single {
   background-color: white;
+  border-radius: 8px 8px 0 0;
   display: block;
-  margin: 200px auto 0px;
-  width: 50%;
-  border-radius: 10px; }
+  margin: 100px auto 0px;
+  padding: 28px 64px;
+  width: 50%; }
+  .single .join {
+    color: #2ab2af;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 16px;
+    letter-spacing: normal; }
+  .single .day {
+    color: #c0df34;
+    font-weight: 700;
+    margin-bottom: 16px; }
+  .single .text {
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 94%;
+    padding-bottom: 22px;
+    color: #98a6bd; }
 
-.information {
-  background-color: #2ab2af;
+.card {
+  margin: 0 auto;
   max-width: 50%; }
-
-.why-us {
-  background-color: #51ccca;
-  max-width: 50%; }
+  .card .information {
+    background-color: #2bb3b1;
+    border-radius: 0 0 0 8px;
+    padding: 30px 56px 26px;
+    max-width: 50%;
+    width: 100%; }
+    .card .information .text {
+      color: #e5eff5;
+      font-size: 12px;
+      margin-bottom: 10px; }
+      .card .information .text .bold {
+        font-size: 28px;
+        font-weight: 700;
+        letter-spacing: 1px; }
+    .card .information .btn {
+      align-items: center;
+      background-color: #c0df34;
+      border-radius: 4px;
+      color: #e5eff5;
+      display: flex;
+      font-size: 16px;
+      height: 36px;
+      justify-content: center;
+      line-height: 26px;
+      text-align: center;
+      width: 206px; }
+  .card .why-us {
+    background-color: #4abebd;
+    border-radius: 0 0 8px 0;
+    max-width: 50%;
+    padding: 30px 50px;
+    width: 100%; }
+    .card .why-us .txt {
+      font-size: 13px;
+      padding-right: 60px;
+      line-height: 20px; }

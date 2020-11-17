@@ -2,28 +2,100 @@
     background-color: $blue;
 }
 
-.card {
-     margin: 0px 180px 0px 280px;
-    border-radius: 10px;
-}
-
+// 1 party
 .single {
     background-color: white;
+    border-radius: 8px 8px 0 0;
     display: block;
-    margin: 200px auto 0px;
+    margin: 100px auto 0px;
+    padding: 28px 64px;
     width: 50%;
-    border-radius: 10px;
+
+
+    .join {
+        color: $cyan;
+        font-weight: 700;
+        line-height: 30px;
+        margin-bottom: 16px;
+        letter-spacing: normal;
         
+    }
+    
+    .day {
+        color: $yellow;
+        font-weight: 700;
+        margin-bottom: 16px;
+    }
+    
+    .text {
+        font-size: 16px;
+        line-height: 26px;
+        max-width: 94%;
+        padding-bottom: 22px;
+        color: $blue;
+        
+    }
 }
 
-.information {
-    background-color: $cyan;
+// 2 party
+.card {
+    margin: 0 auto;
     max-width: 50%;
-}
+    
+    
+    
+    .information {
+        background-color: #2bb3b1;
+        border-radius: 0 0 0 8px;
+        padding: 30px 56px 26px;
+        max-width: 50%;
+        width: 100%;
+        
 
-.why-us {
-    background-color: $green;   
-    max-width: 50%;
+        .text {
+            color: $grey;
+            font-size: 12px;
+            margin-bottom: 10px;
 
+            .bold {
+                font-size: 28px;
+                font-weight: 700;
+                letter-spacing: 1px;
+            }
+        }
+
+
+
+        .btn {
+            align-items: center;
+            background-color: $yellow;
+            border-radius: 4px;
+            color: $grey;
+            display: flex;
+            font-size: 16px;
+            height: 36px;
+            justify-content: center;
+            line-height: 26px;
+            text-align: center;
+            width: 206px;
+
+        }
+    }
+    
+    .why-us {
+        background-color: #4abebd;
+        border-radius: 0 0 8px 0;
+        max-width: 50%;
+        padding: 30px 50px;
+        width: 100%;
+
+        .txt {
+            font-size: 13px;
+            padding-right: 60px;
+            line-height: 20px;
+        }
+        
+
+    }
 
 }
