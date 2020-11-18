@@ -38,6 +38,7 @@
 }
 
 // 2 party
+
 .card {
     margin: 0 auto;
     max-width: 50%;
@@ -63,6 +64,7 @@
                 letter-spacing: 1px;
             }
         }
+    
 
 
 
@@ -70,6 +72,7 @@
             align-items: center;
             background-color: $yellow;
             border-radius: 4px;
+            box-shadow: 5px 17px 39px darkslategrey;
             color: $grey;
             display: flex;
             font-size: 16px;
@@ -81,6 +84,7 @@
 
         }
     }
+
     
     .why-us {
         background-color: #4abebd;
@@ -97,5 +101,15 @@
         
 
     }
-
 }
+
+
+@media (max-width: 1064) {
+    .information {
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
