@@ -416,6 +416,10 @@ a:active {
     padding: 30px 56px 26px;
     max-width: 50%;
     width: 100%; }
+    @media (max-width: 1064px) {
+      .card .information {
+        max-width: 100%;
+        text-align: center; } }
     .card .information .text {
       color: #e5eff5;
       font-size: 12px;
@@ -428,7 +432,7 @@ a:active {
       align-items: center;
       background-color: #c0df34;
       border-radius: 4px;
-      box-shadow: 5px 17px 39px darkslategrey;
+      box-shadow: rgba(0, 0, 0, 0.1);
       color: #e5eff5;
       display: flex;
       font-size: 16px;
@@ -436,20 +440,20 @@ a:active {
       justify-content: center;
       line-height: 26px;
       text-align: center;
-      width: 206px; }
+      max-width: 206px; }
   .card .why-us {
     background-color: #4abebd;
     border-radius: 0 0 8px 0;
     max-width: 50%;
     padding: 30px 50px;
     width: 100%; }
+    @media (max-width: 1064px) {
+      .card .why-us {
+        max-width: 100%;
+        text-align: center; }
+        .card .why-us .txt {
+          margin: 0 auto; } }
     .card .why-us .txt {
       font-size: 13px;
       line-height: 20px;
-      padding-right: 60px; }
-
-@media (max-width: 1064) {
-  .information {
-    max-width: 100%;
-    width: 100%;
-    text-align: center; } }
+      max-width: 200px; }
